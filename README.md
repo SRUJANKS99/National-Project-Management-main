@@ -44,21 +44,13 @@
 |Sqlite3 / Mysql|
 |Bootstrap v4.5.0|
 
-# Main Idea
-- The primary objective is to bring together students and their projects exclusively from various colleges, universities, schools, and institutions.
-- Students can register and log in, or they can try the demo user to explore all available projects.
-- Form Teams: Assign Team Leaders and Team Members.
-- Create Projects: Specify Project Details, Deadline, Technology Stack, and Progress.
-- Create Tasks: Team leaders can assign tasks to everyone, while members can self-assign tasks.
-- View all projects and their details created by students across Bharat.
-- Comment Section
+
 
 
 # Installion & Usage
 ## Make sure you have the following installed:
 - Python3
-## Add the Database if you need mysql at https://github.com/Akshay-Arjun/National-Project-Management/blob/895ca43cc50b7edfb105d751329e596b2d2706c7/national-pm/local_settings.py#L31
-## Change email settings ( this is used for reset password emails sent to users ) at https://github.com/Akshay-Arjun/National-Project-Management/blob/895ca43cc50b7edfb105d751329e596b2d2706c7/national-pm/local_settings.py#L45
+
 ## 1. **Clone the repository:**
    
 ## 2. Create a virtual environment (optional but recommended):
@@ -83,8 +75,7 @@ python manage.py createsuperuser
 Start the development server:
 ```
 python manage.py runserver
-```
-Visit http://127.0.0.1:8000/admin in your browser login with admin and in users add new user with username and password from https://github.com/Akshay-Arjun/National-Project-Management/blob/895ca43cc50b7edfb105d751329e596b2d2706c7/national-pm/local_settings.py#L60 https://github.com/Akshay-Arjun/National-Project-Management/blob/895ca43cc50b7edfb105d751329e596b2d2706c7/national-pm/local_settings.py#L61
+
 Now make click on edit this user and click on checkbox which says Demo User.
 ## 7. Logout 
 ## 8. Home Page
@@ -102,14 +93,7 @@ Every project is assigned to a team and thus has members and a leader associated
 with it. A project can only be assigned to one team but a team can have many
 projects. Once a project is over it can be marked as completed.
 
-## Tasks
-Tasks are assigned to projects. Once a task has been assigned to a project it
-can be assigned to a member of the project's team, it will then appear on a list
-of their active tasks. Tasks can be assigned by team members to themselves or by
-the team leader to anyone on the team. Any member of a project's team can create
-a task for the project. Every task is given a unique number that can be used to
-refer to it independent of the project or user it is assigned to. Tasks can also
-be marked as completed, this is generally done by the user that the task is
+user that the task is
 assigned to, but may also be done by the team leader.
 
 ## The Dashboard
