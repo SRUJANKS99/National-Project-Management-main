@@ -1,4 +1,4 @@
-This project was developed as a personal initiative with no intention of participating in the Smart India Hackathon 2023.
+
 # Table of Contents
 
 1. [Problem Statement Details](#problem-statement-details)
@@ -53,7 +53,6 @@ This project was developed as a personal initiative with no intention of partici
 - View all projects and their details created by students across Bharat.
 - Comment Section
 
-![image](https://github.com/Akshay-Arjun/National-Project-Management/assets/68991993/b1fc3907-a1d9-46c2-8f5f-cabac21ef3a5)
 
 # Installion & Usage
 ## Make sure you have the following installed:
@@ -61,10 +60,7 @@ This project was developed as a personal initiative with no intention of partici
 ## Add the Database if you need mysql at https://github.com/Akshay-Arjun/National-Project-Management/blob/895ca43cc50b7edfb105d751329e596b2d2706c7/national-pm/local_settings.py#L31
 ## Change email settings ( this is used for reset password emails sent to users ) at https://github.com/Akshay-Arjun/National-Project-Management/blob/895ca43cc50b7edfb105d751329e596b2d2706c7/national-pm/local_settings.py#L45
 ## 1. **Clone the repository:**
-   ```
-   git clone https://github.com/Akshay-Arjun/National-Project-Management
-   cd National-Project-Management
-   ```
+   
 ## 2. Create a virtual environment (optional but recommended):
 ```
 python -m venv venv
